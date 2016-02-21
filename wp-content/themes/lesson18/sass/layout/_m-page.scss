@@ -1,0 +1,36 @@
+
+#content {
+  border-left: 1px solid #e1e0e0;
+  border-right: 1px solid #e1e0e0;
+  article {
+    padding-top: 80px;
+    .post-thumbnail-wrapper {
+      text-align: center;
+      img.attachment-post-thumbnail {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .description {
+      padding: 0 15px;
+      h2 {
+        text-transform: uppercase;
+        margin-bottom: 40px;
+        &~p {
+          font-size: $main-font-size;
+          margin: 10px 0 20px;
+        }
+      }
+    }
+  }
+
+}
+.pagination {
+  border-top: 1px solid #e1e0e0;
+  border-bottom: 1px solid #e1e0e0;
+  display: block;
+  clear: both;
+}
+.main-section {
+  padding-bottom: 80px;
+}
