@@ -30,8 +30,6 @@
 	</div>
 </footer>
 </div>
-<script src="http://ltas/wp-content/themes/lesson18/js/jquery-1.12.0.min.js"></script>
-<script src="http://ltas/wp-content/themes/lesson18/js/main.js"></script>
 <?php wp_footer(); ?>
 </body>
 </html>
