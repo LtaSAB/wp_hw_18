@@ -182,7 +182,8 @@ h2 {
   border-top: 1px solid #e1e0e0;
   border-bottom: 1px solid #e1e0e0;
   display: block;
-  clear: both; }
+  clear: both;
+  margin: 0; }
 
 .main-section {
   padding-bottom: 80px; }

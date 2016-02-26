@@ -1,4 +1,4 @@
-﻿<footer class="f-page">
+<footer class="f-page">
 	<div class="container-fluid">
 		<h2 class="logotype"><a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?><span>.</span></a></h2>
 		<p class="copyright"> &copy; <?php echo date( 'Y' );?>

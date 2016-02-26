@@ -12,9 +12,7 @@ get_header(); ?>
 								<div class="description">
 									<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 									<?php the_content(); ?>
-									<a href="<?php the_permalink(); ?>" class="button read-more">
-										Continue Reading
-									</a>
+								
 								</div>
 							</article>
 						<?php endwhile;
@@ -25,9 +23,5 @@ get_header(); ?>
 <!--				Непонятный отступ в инспекторе ничего не обнаружил,а на деле присутствует-->
 			</div>
 			<?php get_sidebar(); ?>
-		<div class="pagination ">
-			<a class="pagination-link prev-link" href="">previous</a>
-			<a class="pagination-link next-link" href="">next</a>
-		</div>
 	</main>
 <?php get_footer(); ?>
